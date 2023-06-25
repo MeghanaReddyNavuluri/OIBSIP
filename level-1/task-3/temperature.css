@@ -1,0 +1,101 @@
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.bg-container{
+    background-image: url("https://media.istockphoto.com/id/1332381538/photo/sunrise.jpg?s=612x612&w=0&k=20&c=We27W3yzzruGnpBz7gn0yjKb0UQY_zZY2Vlv4O7lCbo=");
+    height:90vh;
+    width:100vw;
+    background-size: cover;
+    text-align: center;
+    padding-top:210px;
+}
+.card{
+    background-color:transparent;
+    height:50vh;
+    width:50vw;
+    border-color: aliceblue;
+    border-width: 4px;
+    margin-left: 350px;
+    padding:20px;
+    
+}
+.heading{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size:50px;
+    color:aliceblue;
+    font-weight: bold;
+
+}
+#celcius{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#fahrenheit{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+#kelvin{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+input{
+    flex:5;
+    height:55px;
+    width: 200px;
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+    border: none;
+    outline: none;
+    border-radius:8px 0 0 8px;
+    padding:0 10px;
+}
+.icon{
+    flex:1;
+    height:55px;
+    line-height:60px;
+    padding:0 5px;
+    text-align: center;
+    font-size: 30px;
+    background-color:gray;
+    color:#ffff;
+    border-radius: 0 8px 8px 0;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+input{
+    -moz-appearance: textfield;
+}
+
+.button button{
+    border:none;
+    outline:none;
+    padding:10px ;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: 0.3s;
+    height:40px;
+    width:100px;
+    margin-top: 20px;
+}
+.button{
+    margin-top: 20px;
+    height:40px;
+    width:100px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 3px;
+}
